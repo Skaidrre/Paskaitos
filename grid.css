@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(240, 240, 247);
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    background-color:blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #3949ab;
+}
+
+.paveiksliukas img {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.tekst {
+    color: blue;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    text-align: left;
+}
+
+.Produktai {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    background-color: #c9c4c4;
+    padding: 20px;
+
+}
+
+.Preke {
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main img {
+    width: 200px;
+    align-self: center;
+}
+
+main p {
+    font-size: 14px;
+    padding: 20px;
+}
+
+main a {
+    font-size: 20px;
+    background-color: rgb(234, 107, 107);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+main a:hover {
+    background-color: #5c72f3;
+    transition: background-color 0.3s;
+}
+
+.Poraste {
+    background-color:blue;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    display: grid;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navigacija {
+    list-style: none;   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px;
+}
+
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+
